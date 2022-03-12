@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    /*border: 1px solid rebeccapurple;*/
+}
+
+:root{
+    --ff-primary: "roboto", sans-serif;
+    --cor-1: #a5dff7;
+    --cor-2: #0467ca;
+}
+
+/*CONFIGURAÇÕES GERAIS*/
+body {
+    background: linear-gradient(var(--cor-1),var(--cor-2));
+}
+a {
+    text-decoration: none;
+    color:lightblue;
+    font-size: 18px;
+}
+/*JANELA DE LOGIN*/
+.login {
+    width: 300px;
+    margin: 120px auto 30px auto;
+    border-top: 3px solid var(--cor-1);
+    border-bottom: 3px solid var(--cor-1)
+}
+.login_logo {
+    width: 250px;
+    height: auto;
+}
+.login_titulo {
+    color:#fff;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-left: 15px;
+}
+.login_dados {
+    display: flex;
+	flex-direction: column;
+    width:250px;
+    margin: 35px auto;
+}
+.form_ID{
+	width: 80%;
+	margin: 0 10%;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+}
+.form_senha{
+	width: 80%;
+	margin: 0 10%;
+	padding: 10px;
+	border: none;
+	margin-bottom: 10px;
+	border-radius: 50px;
+}
+.bt_entrar {
+    padding: 10px;
+	width: 50%;
+	margin: 0 25%;
+	border-radius: 50px;
+	border: none;
+	text-transform: uppercase;
+	font-weight: 700;
+	color: #fff;
+	background: linear-gradient(to right, var(--cor-1), var(--cor-2));
+	cursor: pointer;
+}
+form > a {
+    margin-top: 20px;
+    text-align: center;
+}
+.login_descricao {
+    text-align: center;
+    color: lightblue;
+    font-size: 18px;
+    margin-top: 37px;
+}
+.login_descricao a {
+    font-weight: 700;
+}
