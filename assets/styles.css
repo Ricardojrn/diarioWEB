@@ -6,12 +6,16 @@
 
 :root{
     --ff-primary: "roboto", sans-serif;
-    --cor-1: #a5dff7;
+    --cor-1: #b6e2f5;
     --cor-2: #0467ca;
 }
 
 /*CONFIGURAÇÕES GERAIS*/
-body {
+#container {
+    width: 300px;
+    margin: 60px auto 20px auto;
+    padding:20px;
+    border-radius: 45px;
     background: linear-gradient(var(--cor-1),var(--cor-2));
 }
 a {
@@ -19,11 +23,12 @@ a {
     color:lightblue;
     font-size: 18px;
 }
+body {
+    background: var(--cor-1) url("img/linha.png");
+}
+
 /*JANELA DE LOGIN*/
 .login {
-    width: 300px;
-    margin: 120px auto 30px auto;
-    border-top: 3px solid var(--cor-1);
     border-bottom: 3px solid var(--cor-1)
 }
 .login_logo {
