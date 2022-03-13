@@ -16,6 +16,7 @@
     margin: 60px auto 20px auto;
     padding:20px;
     border-radius: 45px;
+    border: 4px rgba(0, 0, 0, 0.1) solid;
     background: linear-gradient(var(--cor-1),var(--cor-2));
 }
 a {
