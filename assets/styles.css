@@ -12,7 +12,7 @@
 
 /*CONFIGURAÇÕES GERAIS*/
 #container_login {
-    width: 300px;
+    width: 400px;
     margin: 60px auto 20px auto;
     padding:20px;
     border-radius: 45px;
@@ -29,9 +29,6 @@ body {
 }
 
 /*JANELA DE LOGIN*/
-.login {
-    border-bottom: 3px solid var(--cor-1);
-}
 .login_logo {
     width: 250px;
     height: auto;
@@ -88,4 +85,10 @@ form > a {
 }
 .login_descricao a {
     font-weight: 700;
+}
+.hr_cor1 {
+    border:0;
+    height: 4px;
+    background-color:var(--cor-1);
+    border-radius: 50px;
 }
