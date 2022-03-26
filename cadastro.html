@@ -4,24 +4,45 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/styles.css">
+    <link rel="stylesheet" type="text/css" href="assets/style_cad.css">
     <title>cadastro</title>
 </head>
 <body>
-    <div id="container_cadastro" autocomplete="off">
-        <form class="Cadastro_dados">
-            <input type="text" placeholder="Nome Completo">
-            <br>
-            <label>Sexo:</label>
-            <br>
-            <input type="radio" name="sexo" value="M">Masculino
-            <input type="radio" name="sexo" value="F">Feminino
-            <br>
-            <input type="email" placeholder="e-mail">
-            <br>
-            <label>Telefone:</label>
-            <br>
-            <input type="tel" id="fone" name="fone" placeholder="(xx)-9-xxxx-xxxx" required pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
-        </form>
+    <div id="container_cad" autocomplete="off">
+        <div class="head_cad">
+            <header class="login_head">
+                <center>
+                    <img class="login_logo" src="assets/img/Logotipo.png" width="150" height="150">
+                </center>
+            </header>
+        </div>
+        <div>
+            <form class="Cadastro_dados">
+                <input type="text" class="form_input" placeholder="Nome Completo">
+                <br>
+                <label class="texto_cad">Sexo:</label>
+                <br>
+                <div class="radio_cad">
+                    <input type="radio"  name="sexo" value="M">Masculino
+                    <input type="radio" name="sexo" value="F">Feminino
+                </div>
+                <br>
+                <input type="email" class="form_input" placeholder="e-mail">
+                <br>
+                <label class="texto_cad">Telefone:</label>
+                <br>
+                <input type="tel" class="form_input" name="fone" placeholder="(xx)-9-xxxx-xxxx" required pattern="[0-9]{2}-[0-9]{5}-[0-9]{4}">
+                <br>
+                <input type="text" class="form_input" name="ID" placeholder="ID de usuário">
+                <br>
+                <input type="password" class="form_input" name="senha1" placeholder="Digite uma senha">
+                <br>
+                <input type="password" class="form_input" name="senha2" placeholder="Digite a senha novamente">
+                <br>
+                <input type="submit" class="bt_cad" value="Cadastrar">
+            </form>
+        </div>
     </div>
 </body>
 </html>

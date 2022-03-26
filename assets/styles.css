@@ -30,7 +30,7 @@ body {
 
 /*JANELA DE LOGIN*/
 .login {
-    border-bottom: 3px solid var(--cor-1)
+    border-bottom: 3px solid var(--cor-1);
 }
 .login_logo {
     width: 250px;
@@ -48,7 +48,7 @@ body {
     width:250px;
     margin: 35px auto;
 }
-.form_ID{
+.form_input{
 	width: 80%;
 	margin: 0 10%;
 	padding: 10px;
