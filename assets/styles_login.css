@@ -21,7 +21,6 @@
 a {
     text-decoration: none;
     color:lightblue;
-    font-size: 18px;
 }
 body {
     background: var(--cor-1) url("img/linha.png");
