@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --ff-primary: "roboto", sans-serif;
+    --cor-1: #b6e2f5;
+    --cor-2: #0467ca;
+}
+/*CABEÇALHO MENU*/
+.cabeca {
+    background: linear-gradient(var(--cor-1), var(--cor-2));
+}
+.cabeca_logo img {
+    width: 200px;
+    margin: auto;
+    display: block;
+}
+.cabeca_menu {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+.cabeca_lista li {
+    display: inline;
+    margin: 10px;
+}
+.cabeca_lista li a {
+    color:var(--cor-1)
+}
